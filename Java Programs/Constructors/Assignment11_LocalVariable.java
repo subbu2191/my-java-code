@@ -1,6 +1,6 @@
 package Constructors;
 
-public class LocalVariable 
+public class Assignment11_LocalVariable 
 
 {
 static void add()
@@ -19,7 +19,7 @@ void multiple(int no1, int no2)
 	System.out.println(no1*no2);
 }
 
-LocalVariable()
+Assignment11_LocalVariable()
 {
 	System.out.println("subbu123");
 }
@@ -27,8 +27,8 @@ LocalVariable()
 	{
 		int subbu=1000;	
 		System.out.println(subbu);   // Local variable dont have default value
-		LocalVariable LV1=new LocalVariable();
+		Assignment11_LocalVariable LV1=new Assignment11_LocalVariable();
 		LV1.multiple(100,100);
-		new LocalVariable();
+		new Assignment11_LocalVariable();
 	}
 }

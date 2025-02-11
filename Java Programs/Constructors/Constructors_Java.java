@@ -32,6 +32,6 @@ public class Constructors_Java
 		
 		new Constructors_Java("SUBBU"); 
 	    
-		close();
+		
 	}
 }
